@@ -1,7 +1,6 @@
 #include <iostream>
 int main(){
     printf("Hello, World!");
-    int x = 0;
-    printf("%d", x);
+    int l = 0; printf("%d", l++);
     return 0;
 }
