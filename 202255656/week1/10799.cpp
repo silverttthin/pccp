@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// 백준 10799: 쇠막대기
+// 백준 10799 : 쇠막대기
 // 알고리즘 : 자료구조 스택
 // https://www.acmicpc.net/problem/10799
 
