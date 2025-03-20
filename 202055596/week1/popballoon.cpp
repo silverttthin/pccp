@@ -16,8 +16,8 @@ int solution(vector<int> a) {
     vector<int> leftMin(a_len);
     vector<int> rightMin(a_len);
     
-    leftMin[0] = a[0]; // 0 ~ i 중 최댓값
-    rightMin[a_len - 1] = a[a_len - 1]; // i ~ a_len - 1 중 최댓값
+    leftMin[0] = a[0]; // 0 ~ i 중 최솟값
+    rightMin[a_len - 1] = a[a_len - 1]; // i ~ a_len - 1 중 최솟값
     
     for (int i=1; i<a_len; ++i)
     {
