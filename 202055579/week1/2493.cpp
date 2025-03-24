@@ -15,9 +15,9 @@ int main() {
     for(int i=1; i<=n; i++){
         int height;
         cin>>height;
-        while(q.top().first < height) q.pop();
+        while(q.top().first < height) q.pop(); // top이 더 작다 == 현재 건물의 레이저가 맞을 건물이 아니다
         cout<<q.top().second<<" "; // 그냥 실시간으로 답 출력해가기
-        q.push({height, i});
+        q.push({height, i}); // push
         }
     }
 
