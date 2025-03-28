@@ -1,7 +1,6 @@
 // 10828/스택/baekjoon
 // 216ms
 // 1h
-// 문제는 어찌저찌 풀었는데 스택이 뭔지 아직도 잘 모르겠습니다..
 #include <iostream>
 #include <vector>
 using namespace std;
