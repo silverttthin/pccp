@@ -8,7 +8,7 @@
 #include <vector>
 using namespace std;
 
-int result[3] = {0, };
+int result[3];
 vector<vector<int>> paper;
 
 void cut(int x, int y, int r)
@@ -34,7 +34,6 @@ void cut(int x, int y, int r)
     for (int i=0; i<3; ++i)
         for (int j=0; j<3; ++j)
             cut(x + i * r, y + j * r, r);
-        
 }
 
 int main()
