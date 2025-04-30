@@ -30,6 +30,10 @@ int main() {
     sort(negatives.begin(), negatives.end());
 
     int result = 0;
+
+    // 양수끼리 내림차순으로 곱
+    // 1일 경우 곱하지 말고 더해야 함
+    // 마지막으로 남은 수 더해주기
     int i;
     if (positives.size() > 0) {
         for (i = 0; i < positives.size() - 1; i += 2) {
@@ -39,6 +43,8 @@ int main() {
         if (i < positives.size()) result += positives[i];
     }
     
+    // 음수끼리 오름차순 곱
+    // 마지막으로 남은 수 더해주기
     if (negatives.size() > 0) {
         for (i = 0; i < negatives.size() - 1; i += 2)
             result += (negatives[i] * negatives[i + 1]);
