@@ -3,6 +3,7 @@
 #include <algorithm>
 
 // 백준 1744 수 묶기 (그리디)
+// https://www.acmicpc.net/problem/1744
 
 using namespace std;
 
