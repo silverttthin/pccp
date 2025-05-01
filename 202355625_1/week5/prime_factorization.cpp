@@ -12,7 +12,7 @@ int main() {
         }
     }
     if (n > 1) {
-        cout << n << '\n';
+        cout << n << endl;
     }
     return 0;
 }
